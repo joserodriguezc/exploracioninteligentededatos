@@ -1,0 +1,15 @@
+# Editor
+.vscode/
+
+# Entorno virtual (uv)
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos temporales de Office (documento abierto en Word)
+~$*

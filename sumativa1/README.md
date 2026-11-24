@@ -9,7 +9,8 @@ Avance del Proyecto Fase 1: EDA reproducible del dataset `titanic` (seaborn).
 
 ```
 sumativa1/
-├── mcdi503_f1_sumativo_grupo10.ipynb        # notebook entregable (secciones I–VIII)
+├── notebooks/
+│   └── mcdi503_f1_sumativo_grupo10.ipynb    # notebook entregable (secciones I–VIII)
 ├── informe/
 │   └── mcdi503_f1_sumativo_grupo10_borrador.docx   # borrador del PDF (apartados I–IX)
 ├── data/raw/titanic_seaborn.csv             # copia congelada de la fuente (la genera el notebook)
@@ -22,7 +23,7 @@ Requiere [uv](https://docs.astral.sh/uv/). Desde la raíz del repositorio:
 
 ```bash
 uv sync                                       # instala las versiones fijadas en uv.lock (Python 3.14)
-uv run jupyter nbconvert --to notebook --execute --inplace sumativa1/mcdi503_f1_sumativo_grupo10.ipynb
+uv run jupyter nbconvert --to notebook --execute --inplace sumativa1/notebooks/mcdi503_f1_sumativo_grupo10.ipynb
 ```
 
 También se puede abrir en Jupyter o VS Code con el kernel de `.venv` y usar *Restart & Run All*.

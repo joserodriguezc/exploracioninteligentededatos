@@ -1,0 +1,2 @@
+# Copia congelada del dataset: conservar los bytes exactos (huella SHA-256)
+sumativa1/data/raw/*.csv -text

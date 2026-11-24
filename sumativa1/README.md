@@ -47,7 +47,10 @@ También se puede abrir en Jupyter o VS Code con el kernel de `.venv` y usar *Re
 - [ ] Continuar el registro de decisiones desde **D7** en §V.1, con motivo y resultado intermedio (cifras antes y después).
 - [ ] Trabajar siempre sobre `df` y no modificar `df_raw`.
 - [ ] Numerar tablas y figuras por sección (Tabla 4.x, Figura 6.x…) y citarlas en el informe.
-- [ ] El informe tiene un máximo de **3 páginas carta**. Los apartados I–III ocupan ~1,3 páginas, así que quedan ~1,7 para IV–IX.
+- [ ] El informe tiene un máximo de **3 páginas carta** y usa la plantilla institucional (`docs/f1_s01_evaluacion_entregable.docx`).
+  - Página 1: portada con el índice.
+  - Página 2: los apartados II–III ocupan ~¾.
+  - Para IV–IX queda ~1,2 páginas. Escribir de forma sintética.
 
 ## Pendientes conocidos
 

@@ -37,7 +37,7 @@ También se puede abrir en Jupyter o VS Code con el kernel de `.venv` y usar *Re
 |---|---|---|---|---|
 | 1. Diseño, carga y diagnóstico | José | I, II, III (+ registro D1–D6 en V.1) | I, II, III | ✅ Listo |
 | 2. Transformaciones, exploración y resultados | Sebastián | IV, V, VI completas | IV, V, VIII integrados en el DOCX | Listo para traspaso |
-| 3. Verificación, integración y entrega | Yerko | VII, VIII + ejecución limpia | VI, VII, IX + PDF final | ⏳ |
+| 3. Verificación, integración y entrega | Yerko | VII, VIII + ejecución limpia | VI, VII, IX + PDF final | 🔄 Integrado; falta PDF final y entrega |
 
 ## Traspaso Bloque 1 → Bloque 2 (checklist de Sebastián)
 
@@ -55,13 +55,14 @@ También se puede abrir en Jupyter o VS Code con el kernel de `.venv` y usar *Re
 
 ## Pendientes conocidos
 
-- Fuente **docente** en APA 7 (material del curso en Canvas). Hay un marcador en la bibliografía del informe.
-- Fuente académica complementaria (Bloque 3).
+- Abrir el DOCX en Word y confirmar que sigue en **3 páginas** (se verificó con LibreOffice; la paginación puede variar).
+- Exportar el PDF y nombrar los archivos finales `mcdi503_f1_sumativo_grupo10.pdf` y `mcdi503_f1_sumativo_grupo10.ipynb`.
+- Subir ambos archivos a Canvas (un intento) y confirmar que quedaron registrados.
 
 ## Traspaso Bloque 2 → Bloque 3
 
 - Notebook con secciones IV–VI, tablas numeradas, tres figuras nuevas, respuestas P1–P3 y decisiones D7–D11.
-- `informe/aporte_sebastian.txt`: aporte breve para IV, V y VIII, referencia oficial en APA 7 y notas de integración. Los textos y la referencia técnica ya están integrados en el DOCX institucional; el borrador se revisó visualmente y tiene tres páginas.
+- Aporte de Sebastián para IV, V y VIII y referencia oficial en APA 7, integrados en el DOCX institucional; el borrador se revisó visualmente y tiene tres páginas.
 - Carga local con SHA-256, sin sobrescribir la fuente. Se mantiene `df_raw`; `df` conserva 891 filas, retira tres columnas redundantes y agrega `fare_log1p` (13 columnas finales).
 - P2 edad: 714 válidos y 177 excluidos solo de ese cálculo. P3: 891 pasajeros, 342 sobrevivientes, sin exclusiones por edad.
 - Yerko debe completar VII–VIII del notebook, integrar el informe y realizar la verificación final desde un kernel limpio.
@@ -69,3 +70,10 @@ También se puede abrir en Jupyter o VS Code con el kernel de `.venv` y usar *Re
 Validación del bloque 2: ejecución completa desde un kernel nuevo sin errores (22 celdas de código); se verificaron huella, dimensiones, faltantes, denominadores y conservación de los valores originales.
 
 Integración del informe: apartados IV, V y VIII y referencia oficial incorporados al DOCX. Actualizadas las descripciones de carga local y D5/D7. Pendientes de Yerko: VI, VII, cierre bibliográfico y comprobación de extensión después de sus aportes.
+
+## Bloque 3 — Verificación e integración (Yerko)
+
+- Reproducción desde un kernel limpio con `uv.lock`: sin errores y con las mismas salidas del Bloque 2 (solo cambian sistema y hora en la Tabla 3.1).
+- Corregida la tabla de decisiones de §V.1: una línea en blanco separaba D7–D11 del encabezado.
+- Notebook: §VII (supuestos S1–S4, Tabla 7.1 con limitaciones L1–L6 calculadas desde `df_raw`, pendientes para fases siguientes) y §VIII (síntesis, hallazgos, Tabla 8.1 de comprobación final que detiene la ejecución si algo no coincide, continuidad desde D12). 24 celdas de código.
+- Informe: apartados VI y VII redactados; bibliografía completa en APA 7 con fuente docente (Paraíso, 2026), técnica (pandas, seaborn) y complementaria (Rule et al., 2019). Se retiró la cita de pandas en Zenodo para respetar el límite de 3 páginas.
